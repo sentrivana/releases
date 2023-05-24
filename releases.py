@@ -25,7 +25,7 @@ for package in metadata.distributions():
 
     projects.append((project, version, release_date))
 
-    sleep(0.5)
+    sleep(0.1)
 
 
 projects.sort(key=lambda p: p[2], reverse=True)
